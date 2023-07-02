@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:8000';
+const url = 'https://flipcart-services.onrender.com';
 
 export const authenticateLogin = async (user) => {
     try {
